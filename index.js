@@ -24,10 +24,10 @@ function decrypt(signature) {
     
     const sig = [...signature];
     
-    nB.UE(a, 19); // UE (reverse)
-    nB.Cz(a, 15); // Cz (swap)
-    nB.mx(a, 3); // mx (splice)
-    nB.Cz(a, 17); // Cz (swap)
+    nB.UE(sig, 19); // UE (reverse)
+    nB.Cz(sig, 15); // Cz (swap)
+    nB.mx(sig, 3); // mx (splice)
+    nB.Cz(sig, 17); // Cz (swap)
     
     return sig.join("");
 }
