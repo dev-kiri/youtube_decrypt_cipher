@@ -3,7 +3,7 @@
 /**
  * Decrypts encrypted cipher signature.
  * @param {string} signature encrypted cipher string
- * @returns decrypted signature
+ * @returns {string} decrypted signature
  */
 function decrypt(signature) {
     const pB = {
